@@ -20,7 +20,7 @@ CREATE TABLE products (
 -- want different data? check: https://www.mockaroo.com/910b6c20
 --
 
-insert into products (name, description, code, price) values ('God of War ', 'Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id.', '816905633-0', 10.5);
+insert into products (name, description, code, price) values ('God of War ', '.', '816905633-0', 10.5);
 insert into products (name, description, code, price) values ('Dark Soul', 'Nulla ut erat id mauris vulputate elementum. Nullam varius.', '077030122-3', 11);
 insert into products (name, description, code, price) values ('Skate 3', 'Pellentesque at nulla. Suspendisse potenti.', '445924201-X', 13.5);
 insert into products (name, description, code, price) values ('FIFA 22', 'Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.', '693155505-7', 13.5);
