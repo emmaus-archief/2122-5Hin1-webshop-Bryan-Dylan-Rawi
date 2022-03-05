@@ -33,10 +33,10 @@ CREATE TABLE products (
   studio TEXT
   );
 
-  insert into review (rating) values (heel leuk);
-  insert into review (rating) values (leuk);
-  insert into review (rating) values (niet zo leuk);
-  insert into review (rating) values (slecht);
+  insert into review (rating) values ('heel leuk');
+  insert into review (rating) values ('leuk');
+  insert into review (rating) values ('niet zo leuk');
+  insert into review (rating) values ('slecht');
   
 -- populate with data
 --
