@@ -57,8 +57,8 @@ insert into products (name, description, code, price, rating_id) values ('Destin
 insert into products (name, description, code, price, rating_id) values ('Farcry', 'Je vader is de koning van Kyrat en je kan kiezen of je Kyrat wilt bevrijden, of om samen met hem het land te verpesten.', '492662523-7', 30,1);
 insert into products (name, description, code, price, rating_id) values ('Spider-Man','pizza time.', '492662523-7', 20,1);
 insert into products (name, description, code, price, rating_id) values ('ARK', 'Overleef in de ruige wereld van ARK en vecht, of maak dinos tam', '492662523-7', 30,2);
-insert into products (name, description, code, price, rating_id) values ('F1 2021', 'Neem het op tegen Max Verstappe', '492662523-7', 5,3);
-insert into products (name, description, code, price, rating_id) values ('Persona 5 Royal', 'Overleef in de Japanase maatschappij en steel de schat van slechteriken', '492662523-7', 60, 1);
+insert into products (name, description, code, price, rating_id) values ('F1 2021', 'Neem het op tegen Max Verstappe en zijn vrienden', '492662523-7', 5,3);
+insert into products (name, description, code, price, rating_id) values ('Persona 5 Royal', 'Overleef in de Japanse maatschappij en steel de schat van slechteriken', '492662523-7', 60, 1);
 insert into products (name, description, code, price, rating_id) values ('Rust', 'Overleer in de ruige wereld van Rust en vecht, of werk samen met naakte mensen', '492662523-7', 40, 4);  
   insert into products (name, description, code, price, rating_id) values ('Assasins Creed Valhalla', 'Wees een assasin in Noorwegen', '492662523-7', 5, 4);
   insert into products (name, description, code, price, rating_id) values ('Uncharted', 'Steel de schat van oude tempels, als Nathan Drake', '492662523-7', 60, 3);
