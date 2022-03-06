@@ -136,6 +136,11 @@
               const clone = template.content.cloneNode(true);
               clone.querySelector(".product_title").textContent = name
               clone.querySelector(".product_description").textContent =`${product.description.substr(0, 100)}...`
+              clone.querySelector(".product_rating").textContent =${products.rating}
+              clone.querySelector(".product_genre").textContent =${products.genre}
+              clone.querySelector(".product_multiplayer").textContent =${products.multiplayer}
+              clone.querySelector(".product_studios").textContent =${products.studios}
+              clone.querySelector(".product_speeltijd").textContent =${products.speeltijd}
               clone.querySelector(".product_price").textContent = `€ ${product.price.toFixed(2)}`
               clone.querySelector(".product_code").textContent = product.code
               clone.querySelector(".product_id").value = product.id
