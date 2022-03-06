@@ -24,27 +24,27 @@ CREATE TABLE products (
 
   CREATE TABLE genres (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  genre TEXT
+  genre VARCHAR(255)
   );
 
   CREATE TABLE multi (
-  multiplayer TEXT
+  multiplayer VARCHAR(255)
   );
 
   CREATE TABLE studios(
    id INTEGER PRIMARY KEY AUTOINCREMENT,
-  studio TEXT
+  studio VARCHAR(255)
   );
 
   CREATE TABLE playtime(
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  speeltijd INTEGER
+  speeltijd VARCHAR(255)
   );
 
   CREATE TABLE age(
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   product INTEGER,
-  leeftijd VARCHAR(255)
+  leeftijd INTEGER
   );
 
   insert into review (rating) values ('heel leuk');
